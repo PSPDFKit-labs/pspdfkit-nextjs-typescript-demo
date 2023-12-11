@@ -22,7 +22,7 @@ const App: React.FC = () => {
     }
   }, []);
 
-  return <div ref={containerRef} style={{ height: '100vh' }} />;
+  return <div ref={containerRef} style={{ height: '100vh' }} />; 
 };
 
 export default App;
